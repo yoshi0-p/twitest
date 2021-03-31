@@ -65,7 +65,7 @@ export default {
   methods:{
     xxx(){
 var params = {screen_name: 'nodejs'};
-axious.client.get('statuses/home_timeline', params, function(error, tweets,) {
+client.get('statuses/home_timeline', params, function(error, tweets,) {
   if (!error) {
     console.log(tweets);
   }
