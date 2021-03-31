@@ -47,10 +47,10 @@
 import HelloWorld from './components/HelloWorld';
 var Twitter = require('twitter');
 var client = new Twitter({
-	consumer_key:'【API key】',
-	consumer_secret: '【API secret key】',
-	access_token_key: '【Access token】',
-	access_token_secret: '【Access token secret】'});
+	consumer_key:'RZcJ9CDJ0vm0i0JXJjzJJSmXy',
+	consumer_secret: 'uD83zFPIoLNzdpbyJJ3j8StjCusQNHqUIdfMR1hLqPNDcph1uh',
+	access_token_key: '1352141169417850883-e7osAxtc1UUAeQPW2P3PG3CBVEiX0F',
+	access_token_secret: 'ZvqjNFJV8FEiaxJEzoPOUJb94peMII3oou24N0bss8qRk'});
 
 export default {
   name: 'App',
